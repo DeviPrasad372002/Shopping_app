@@ -11,7 +11,7 @@ from sqlalchemy.orm import sessionmaker, Session, relationship
 import json
 
 # Database connection
-DATABASE_URL = "postgresql://postgres:Devi3722%23@database-1.cq9ga4e6qc8q.us-east-1.rds.amazonaws.com:5432/mydb"
+DATABASE_URL = ""
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
